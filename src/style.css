@@ -45,6 +45,41 @@ i {
 li {
   list-style: none;
 }
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("https://images.pexels.com/photos/813362/pexels-photo-813362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  bottom: 0;
+  padding: 50px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-family: var(--title-text);
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--main-text);
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: #fff;
+}
 .nav-title {
   text-align: center;
   padding: var(--min-padding);
@@ -185,7 +220,7 @@ li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
-  height: 600px;
+  height: auto;
 }
 
 .hotels-card-wrapper {
@@ -242,6 +277,12 @@ li {
   border: 1px solid var(--main-color);
   border-radius: 4px;
   padding: 20px 10px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  padding: var(--min-padding);
 }
 
 @media (max-width: 800px) {
