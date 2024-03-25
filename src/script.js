@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const initialHotelInfo2 = {
-    imgSrc: "/responsive-add-on/media/mandrake-london.jpg",
+    imgSrc: "/media/mandrake-london.jpg",
     name: "The Mandrake London",
     address: "20-21 Newman St, London W1T 1PG",
     phone: "+44 20 3146 7770",
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const initialHotelInfo3 = {
-    imgSrc: "images/baileys-hotel.jpg",
+    imgSrc: "/media/baileys-hotel.jpg",
     name: "The Bailey’s Hotel London",
     address: "Address 3",
     phone: "345-678-9012",
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/responsive-add-on/media/Kimpton Fitzroy London.jpg",
+      imgSrc: "/media/Kimpton Fitzroy London.jpg",
       name: "Kimpton Fitzroy Hotel",
       address: "1-8 Russell Sq, London WC1B 5BE",
       phone: "+44 20 7123 5000",
@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://www.expedia.com/London-Hotels-Kimpton-Fitzroy-London.h21514.Hotel-Information?chkin=2024-04-27&chkout=2024-04-30&x_pwa=1&rfrr=HSR&pwa_ts=1711138592311&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a2&regionId=2114&destination=London%2C+England%2C+United+Kingdom&destType=MARKET&neighborhoodId=6251519&selected=21514&latLong=51.50746%2C-0.127673&sort=RECOMMENDED&top_dp=332&top_cur=USD&mdpcid=US.META.HPA.HOTEL-CORESEARCH-ROOMBUNDLE-desktop.HOTEL&mdpdtl=HTL.21514.20240427.20240430.DDF.36.CID.20668773102.AUDID.7263802306.RRID.bex_us_desktop&mctc=10&gclid=Cj0KCQjw2PSvBhDjARIsAKc2cgPwscLrATn-4Y8tUHzM0BesfSPLsErxvnPhA47x3fBgCRec3XMc024aAr5pEALw_wcB&userIntent=&selectedRoomType=210307773&selectedRatePlan=380268387&searchId=fc3df705-0c55-48a4-9f09-2ec2c87cf56d&pdpImageUrls=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F1000000%2F30000%2F21600%2F21514%2F0170cc11.jpg%3Fimpolicy%3Dresizecrop%26rw%3D598%26ra%3Dfit%2Chttps%3A%2F%2Fimages.trvl-media.com%2Flodging%2F1000000%2F30000%2F21600%2F21514%2Fc01724c7.jpg%3Fimpolicy%3Dresizecrop%26rw%3D297%26ra%3Dfit%2Chttps%3A%2F%2Fimages.trvl-media.com%2Flodging%2F1000000%2F30000%2F21600%2F21514%2Fdbb1585d.jpg%3Fimpolicy%3Dresizecrop%26rw%3D297%26ra%3Dfit%2Chttps%3A%2F%2Fimages.trvl-media.com%2Flodging%2F1000000%2F30000%2F21600%2F21514%2F1f32b864.jpg%3Fimpolicy%3Dresizecrop%26rw%3D297%26ra%3Dfit&propertyName=Kimpton+Fitzroy+London%2C+an+IHG+Hotel",
     },
     {
-      imgSrc: "/responsive-add-on/media/no-mad-london.jpg",
+      imgSrc: "/media/no-mad-london.jpg",
       name: "NoMad Hotel",
       address: "28 Bow St, London WC2E 7AW",
       phone: "+44 20 3906 1600",
@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/responsive-add-on/media/rosewood-hotel.jpg",
+      imgSrc: "/media/rosewood-hotel.jpg",
       name: "Rosewood Hotel",
       address: "252 High Holborn, London WC1V 7EN",
       phone: "+44 20 7781 8888",
@@ -208,7 +208,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/responsive-add-on/media/savoy-hotel.jpg",
+      imgSrc: "/media/savoy-hotel.jpg",
       name: "Savoy Hotel",
       address: " Strand, London WC2R 0EZ",
       phone: "+44 20 7836 4343",
@@ -218,7 +218,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/responsive-add-on/media/cafe-royal-hotel.jpg",
+      imgSrc: "/media/cafe-royal-hotel.jpg",
       name: "Cafe Royal Hotel",
       address: " 10 Air St, London W1B 5AB",
       phone: "+44 20 7406 3333",
@@ -228,7 +228,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/responsive-add-on/media/st-ermins-hotel.jpg",
+      imgSrc: "/media/st-ermins-hotel.jpg",
       name: "St. Ermins Hotel",
       address: "2 Caxton St, London SW1H 0QW",
       phone: "+44 20 7222 7888",
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/responsive-add-on/media/11-cadogan-gardens.jpg",
+      imgSrc: "/media/11-cadogan-gardens.jpg",
       name: "11 Cadogan Gardens",
       address: "11 Cadogan Gardens, London SW3 2RJ",
       phone: "+44 20 7730 7000",
@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
   const hotelInfoColumn2 = [
     {
-      imgSrc: "/responsive-add-on/media/mandrake-london.jpg",
+      imgSrc: "/media/mandrake-london.jpg",
       name: "The Mandrake London",
       address: "20-21 Newman St, London W1T 1PG",
       phone: "+44 20 3146 7770",
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/responsive-add-on/media/augill-castle.jpg",
+      imgSrc: "/media/augill-castle.jpg",
       name: "Augill Castle",
       address: "Leacett Ln, Kirkby Stephen CA17 4DE, United Kingdom",
       phone: "+44 17683 41937",
@@ -270,7 +270,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
   const hotelInfoColumn3 = [
     {
-      imgSrc: "/responsive-add-on/media//nHow-Hotel.jpg",
+      imgSrc: "/media//nHow-Hotel.jpg",
       name: "NHow Hotel",
       address: "2 Macclesfield Rd, London EC1V 8DG.",
       phone: "+44 20 3907 8100",
@@ -280,7 +280,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/responsive-add-on/media/baileys-hotel.jpg",
+      imgSrc: "/media/baileys-hotel.jpg",
       name: "The Bailey’s Hotel London",
       address: "140 Gloucester Rd, South Kensington, London SW7 4QH",
       phone: "+44 20 7373 6000",
