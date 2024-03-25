@@ -1,0 +1,277 @@
+:root {
+  --main-text: "Montserrat", sans-serif;
+  --title-text: "Angkor", serif;
+  --border: 1px solid #333;
+  --min-padding: 10px;
+  --max-padding: 40px;
+  --main-color: #b58661;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-title {
+  text-align: center;
+  padding: var(--min-padding);
+  border: var(--border);
+  margin-top: 5px;
+}
+
+/* Basic styles for the navigation bar */
+.navbar {
+  display: flex;
+  border: var(--border);
+
+  overflow: hidden;
+}
+
+/* Styles for each navigation item */
+.navbar-item {
+  flex: 1;
+  text-align: center;
+  border-left: var(--border);
+  cursor: pointer;
+}
+
+.nav-title p {
+  font-family: var(--title-text);
+}
+
+header {
+  margin: 0 25px;
+}
+
+h1 {
+  font-family: var(--title-text);
+  text-transform: uppercase;
+  font-size: 12vw;
+  width: 60%;
+  margin: 0px;
+}
+
+.heading-title h3 {
+  font-family: var(--main-text);
+  font-weight: 200;
+  width: 30%;
+  margin: 0px;
+  text-align: justify;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+section {
+  margin-top: 40px;
+}
+
+a {
+  color: #000000;
+}
+
+.img-title {
+  max-width: 95%;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.heading-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+}
+
+.navbar-item:hover {
+  background-color: var(--main-color);
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.flex-item {
+  flex: 1;
+}
+
+.history-img,
+.history-text {
+  text-align: center;
+  padding: var(--max-padding);
+}
+
+.history-img {
+  border-right: 1px solid black;
+  -webkit-box-shadow: inset 0px 5px 10px 1px #000000;
+  box-shadow: inset 0px 5px 10px 1px #000000;
+  margin-left: 10px;
+  background-color: #f8f8f8;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: var(--max-padding);
+  text-align: center;
+  font-family: var(--main-text);
+  font-weight: 300;
+}
+
+.history-title {
+  text-transform: uppercase;
+}
+
+.history-text-bold {
+  font-family: var(--title-text);
+  text-decoration: underline;
+  margin-left: 130px;
+  font-size: 30px;
+  color: var(--main-color);
+}
+
+.data-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info-current-time,
+.city-london {
+  border: 1px solid black;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: var(--min-padding);
+}
+
+.history-text {
+  border: 1px solid black;
+}
+
+.currency {
+  text-align: center;
+  background-color: #000000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  height: 22px;
+  padding-top: 2px;
+}
+
+.hotels-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  height: 600px;
+}
+
+.hotels-card-wrapper {
+  border: var(--border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--min-padding);
+  text-align: justify;
+  text-align: center;
+}
+
+.hotels-card-wrapper p {
+  font-family: var(--main-text);
+}
+
+.hotel-card {
+  margin: 20px auto;
+  width: 70%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hotel-img img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+}
+
+.hotel-card-buttons-wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 20px auto;
+}
+
+.hotel-button {
+  font-size: 0.8rem;
+  width: 120px;
+  border: 1px solid var(--main-color);
+  background-color: #fff;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.hotel-booking-info {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  padding: 5px;
+}
+
+.price {
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  padding: 20px 10px;
+}
+
+i {
+  color: var(--main-color);
+}
+li {
+  list-style: none;
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header h1 {
+    font-size: 60px;
+  }
+
+  header h3 {
+    width: 100%;
+  }
+
+  .img-title {
+    height: 200px;
+  }
+
+  .heading-title h3 {
+    width: 100%;
+  }
+
+  .heading-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .history-img img {
+    width: 95%;
+  }
+
+  .hotels-grid-container {
+    grid-template-columns: 1fr;
+  }
+}
