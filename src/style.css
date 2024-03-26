@@ -283,6 +283,68 @@ footer a {
   padding: 20px 10px;
 }
 
+.restaurants {
+  padding: 25px 200px;
+  background-color: #f8f8f8;
+  font-family: var(--main-text);
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+  border: var(--border);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: var(--main-color);
+  text-decoration: none;
+}
+
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.responsive-image {
+  max-width: 100%;
+  padding: var(--max-padding);
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #333;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 1;
+  color: #333;
+  text-transform: uppercase;
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
