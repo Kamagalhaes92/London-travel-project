@@ -420,12 +420,7 @@ footer a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 8px;
   margin-top: 25px;
-  background: rgb(240, 240, 240);
-  background: linear-gradient(
-    0deg,
-    rgba(240, 240, 240, 1) 22%,
-    rgba(181, 134, 97, 1) 78%
-  );
+  background: var(--main-color);
 }
 
 .grid-2-columns {
