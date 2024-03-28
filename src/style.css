@@ -581,7 +581,7 @@ footer a {
 
   .hotels-grid-container {
     grid-template-columns: 1fr;
-    margin: 5px;
+    margin: 5px auto;
   }
 
   .footer-grid {
@@ -620,10 +620,15 @@ footer a {
     grid-template-columns: 1fr;
     padding: 0;
     margin: 0 auto;
+  }
 
-    .padding-wrapper {
-      padding: 0;
-    }
+  .grid-attractions-wrapper {
+    grid-gap: 1px;
+    border: 1px solid black;
+  }
+
+  .padding-wrapper {
+    padding: 0;
   }
 
   .column-1-attractions,
