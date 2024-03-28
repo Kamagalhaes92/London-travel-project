@@ -285,10 +285,20 @@ footer a {
   border: none;
   background-color: var(--main-color);
   height: 30px;
-
   color: #f8f8f8;
   margin-bottom: 10px;
   opacity: 0.7;
+}
+
+.btn-attraction {
+  background-color: #000000;
+  color: white;
+  opacity: 0.8;
+}
+
+.btn-attraction a {
+  color: white;
+  text-decoration: none;
 }
 
 .hotel-button {
@@ -408,6 +418,12 @@ footer a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 8px;
   margin-top: 25px;
+  background: rgb(240, 240, 240);
+  background: linear-gradient(
+    0deg,
+    rgba(240, 240, 240, 1) 22%,
+    rgba(181, 134, 97, 1) 78%
+  );
 }
 
 .grid-2-columns {
@@ -461,6 +477,7 @@ footer a {
 }
 .horizontal-image img {
   width: 100%;
+  margin-top: 20px;
 }
 .embed {
   width: 100%;
@@ -488,8 +505,32 @@ footer a {
 
 .attraction-card {
   background-color: #f8f8f8;
+  color: #070707;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.attraction-card-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.attraction-card-caption {
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  font-family: manrope, sans-serif;
+}
+
+.attraction-card-btn {
+  align-self: flex-end;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
@@ -543,6 +584,7 @@ footer a {
 
   .hotels-grid-container {
     grid-template-columns: 1fr;
+    margin: 5px;
   }
 
   .footer-grid {
@@ -579,6 +621,12 @@ footer a {
 
   .grid-2-columns {
     grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0 auto;
+
+    .padding-wrapper {
+      padding: 0;
+    }
   }
 
   .column-1-attractions,
