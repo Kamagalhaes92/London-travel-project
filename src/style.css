@@ -108,7 +108,6 @@ footer a {
 .navbar {
   display: flex;
   border: var(--border);
-
   overflow: hidden;
 }
 
@@ -126,10 +125,11 @@ footer a {
 
 .heading-title h3 {
   font-family: var(--main-text);
-  font-weight: 200;
+  font-weight: 300;
   width: 30%;
   margin: 0px;
   text-align: justify;
+  font-size: 22px;
 }
 
 .img-title {
@@ -218,6 +218,8 @@ footer a {
 .city-guide-text {
   border: 1px solid black;
   text-align: justify;
+  line-height: 1.75;
+  font-weight: 400;
 }
 
 .currency {
