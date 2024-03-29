@@ -734,7 +734,7 @@ footer a {
 
   .embed {
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 16 / 9;
   }
 
   /* Adjust grid attractions wrapper */
