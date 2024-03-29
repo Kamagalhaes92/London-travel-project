@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/media/St-Pancras-Renaissance.jpg",
+      imgSrc: "/media/St-Pancras.jpg",
       name: "St. Pancras Renaissance Hotel",
       address: "Euston Rd., London NW1 2AR",
       phone: "+44 20 7841 3540",
@@ -287,12 +287,22 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/media/the- zetter.jpg",
+      imgSrc: "/media/the-zetter.jpg",
       name: "The Zetter",
       address: "49-50 St John's Sq, London EC1V 4JJ",
       phone: "+44 20 7324 4444",
       price: 360,
       bookingLink: "https://thezetter.com/clerkenwell/",
+    },
+
+    {
+      imgSrc: "/media/the-zetter.jpg",
+      name: "The Zetter",
+      address: "49-50 St John's Sq, London EC1V 4JJ",
+      phone: "+44 20 7324 4444",
+      price: 360,
+      bookingLink:
+        "https://www.standardhotels.com/london/properties/london?gad_source=1&gclid=Cj0KCQjwzZmwBhD8ARIsAH4v1gXCRZKB5kNqsiEtKJ6_dZTP-HwQqJGCvLXyYL_mqLyLMK4UXqRK8e8aAne0EALw_wcB",
     },
   ];
   const hotelInfoColumn3 = [
