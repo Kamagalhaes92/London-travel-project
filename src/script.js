@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const hotelInfoColumn1 = [
     {
       imgSrc: "/media/landmark-london.jpg",
-      name: "The Landmark London",
+      name: "The Landmark",
       address: "20-21 Newman St, London.",
       phone: "+44 20 7631 8000",
       price: 641,
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     {
       imgSrc: "/media/Kimpton-fitzroy.jpg",
-      name: "Kimpton Fitzroy Hotel",
+      name: "Kimpton Fitzroy",
       address: "1-8 Russell Sq, London WC1B 5BE",
       phone: "+44 20 7123 5000",
       price: 375,
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     {
       imgSrc: "/media/cadogan-gardens.jpg",
-      name: "11 Cadogan Gardens",
+      name: "Cadogan Gardens",
       address: "11 Cadogan Gardens, London SW3 2RJ",
       phone: "+44 20 7730 7000",
       price: 495,
@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const hotelInfoColumn2 = [
     {
       imgSrc: "/media/mandrake-london.jpg",
-      name: "The Mandrake London",
+      name: "The Mandrake",
       address: "20-21 Newman St, London W1T 1PG",
       phone: "+44 20 3146 7770",
       price: 465,
@@ -269,7 +269,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     {
       imgSrc: "/media/St-Pancras.jpg",
-      name: "St. Pancras Renaissance Hotel",
+      name: "St. Pancras Hotel",
       address: "Euston Rd., London NW1 2AR",
       phone: "+44 20 7841 3540",
       price: 405,
@@ -296,13 +296,32 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/media/the-zetter.jpg",
-      name: "The Zetter",
-      address: "49-50 St John's Sq, London EC1V 4JJ",
-      phone: "+44 20 7324 4444",
-      price: 360,
+      imgSrc: "/media/the-standard.jpg",
+      name: "The Standard",
+      address: "10 Argyle St, London WC1H 8EG",
+      phone: "+44 20 3981 8888",
+      price: 270,
       bookingLink:
-        "https://www.standardhotels.com/london/properties/london?gad_source=1&gclid=Cj0KCQjwzZmwBhD8ARIsAH4v1gXCRZKB5kNqsiEtKJ6_dZTP-HwQqJGCvLXyYL_mqLyLMK4UXqRK8e8aAne0EALw_wcB",
+        "https://book.standardhotels.com/?adult=1&arrive=2024-03-29&chain=18474&child=0&currency=GBP&depart=2024-03-30&hotel=2053&level=hotel&locale=en-US&rooms=1",
+    },
+
+    {
+      imgSrc: "/media/andaz.jpg",
+      name: "Andaz London",
+      address: "40 Liverpool St, London EC2M 7QN",
+      phone: "+44 20 7961 1234",
+      price: 305,
+      bookingLink:
+        "https://www.hyatt.com/andaz/longe-andaz-london-liverpool-street",
+    },
+
+    {
+      imgSrc: "/media/good-hotel.jpg",
+      name: "Good Hotel",
+      address: "Royal Victoria Dock, Western Gateway, London E16 1FA",
+      phone: "+44 20 3637 7401",
+      price: 105,
+      bookingLink: "https://goodhotel.co/",
     },
   ];
   const hotelInfoColumn3 = [
@@ -318,12 +337,68 @@ document.addEventListener("DOMContentLoaded", function () {
 
     {
       imgSrc: "/media/baileys-hotel.jpg",
-      name: "The Bailey’s Hotel London",
+      name: "The Bailey’s",
       address: "140 Gloucester Rd, South Kensington, London SW7 4QH",
       phone: "+44 20 7373 6000",
       price: 207,
       bookingLink:
         "https://www.expedia.com/London-Hotels-The-Baileys-Hotel-London.h523223.Hotel-Information?chkin=2024-04-23&chkout=2024-04-27&x_pwa=1&rfrr=HSR&pwa_ts=1711167182224&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a2&regionId=2114&destination=London%2C+England%2C+United+Kingdom&destType=MARKET&neighborhoodId=553248635976382947&selected=19507846&latLong=51.50746%2C-0.127673&price=0&price=322&sort=RECOMMENDED&top_dp=241&top_cur=USD&userIntent=&selectedRoomType=324071756&selectedRatePlan=393636604&searchId=97425f9c-0cbd-495d-85c9-72ae5f4d3b9b&pdpImageUrls=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F1000000%2F530000%2F523300%2F523223%2F1d32493c.jpg%3Fimpolicy%3Dresizecrop%26rw%3D598%26ra%3Dfit%2Chttps%3A%2F%2Fimages.trvl-media.com%2Flodging%2F1000000%2F530000%2F523300%2F523223%2F5fec617d.jpg%3Fimpolicy%3Dresizecrop%26rw%3D297%26ra%3Dfit%2Chttps%3A%2F%2Fimages.trvl-media.com%2Flodging%2F1000000%2F530000%2F523300%2F523223%2F53bd902c.jpg%3Fimpolicy%3Dresizecrop%26rw%3D297%26ra%3Dfit%2Chttps%3A%2F%2Fimages.trvl-media.com%2Flodging%2F1000000%2F530000%2F523300%2F523223%2F1912b5e5.jpg%3Fimpolicy%3Dresizecrop%26rw%3D297%26ra%3Dfit",
+    },
+
+    {
+      imgSrc: "/media/the-z-hotel.jpg",
+      name: "The Z Hotel",
+      address: "Heathcock Court, 415 Strand, London WC2R 0JT",
+      phone: "+44 20 3841 0873",
+      price: 198,
+      bookingLink: "https://www.thezhotels.com/",
+    },
+
+    {
+      imgSrc: "/media/the-corner.jpg",
+      name: "The Corner",
+      address: "42 Adler St, London E1 1EE",
+      phone: "+44 20 3021 3300",
+      price: 162,
+      bookingLink: "https://www.thecornerlondoncity.co.uk/",
+    },
+
+    {
+      imgSrc: "/media/ruby-zoe.jpg",
+      name: "Ruby Zoe Hotel",
+      address: "146, 164 Notting Hill Gate, London W11 3QG",
+      phone: "+44 20 4520 1760",
+      price: 184,
+      bookingLink:
+        "https://www.ruby-hotels.com/en/destinations/london/ruby-zoe",
+    },
+
+    {
+      imgSrc: "/media/hide-hotel.jpg",
+      name: "The Hide London",
+      address: "230 Hendon Way, London NW4 3NE",
+      phone: "+44 20 8203 1670",
+      price: 160,
+      bookingLink: "https://www.thehidelondon.com/book.php",
+    },
+
+    {
+      imgSrc: "/media/the-gantry.jpg",
+      name: "The Gantry London",
+      address: "40 Celebration Ave, East Village, London E20 1DB",
+      phone: "+44 20 4549 7600",
+      price: 165,
+      bookingLink: "https://thegantrylondon.com/",
+    },
+
+    {
+      imgSrc: "/media/cove.jpg",
+      name: "Cove Cannon",
+      address: "46 Cannon St, London EC4N 6JJ",
+      phone: "+44 20 3327 4710",
+      price: 162,
+      bookingLink:
+        "https://www.staycove.com/en/london/cannon-street-apartments",
     },
   ];
 

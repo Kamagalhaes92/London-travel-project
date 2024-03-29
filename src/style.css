@@ -351,6 +351,9 @@ footer a {
   color: black;
   opacity: 1;
   cursor: pointer;
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hides any overflow */
+  text-overflow: ellipsis;
 }
 
 .btn {
