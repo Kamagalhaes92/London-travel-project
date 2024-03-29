@@ -350,6 +350,7 @@ footer a {
   height: 45px;
   color: black;
   opacity: 1;
+  cursor: pointer;
 }
 
 .btn {

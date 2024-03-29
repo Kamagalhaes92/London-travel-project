@@ -168,8 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Define hotel information arrays for each column
   const hotelInfoColumn1 = [
     {
-      imgSrc:
-        "https://i.pinimg.com/564x/01/fe/a3/01fea3faefe04688246fd1daaca7ba61.jpg",
+      imgSrc: "/media/landmark-london.jpg",
       name: "The Landmark London",
       address: "20-21 Newman St, London.",
       phone: "+44 20 7631 8000",
@@ -179,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/media/Kimpton Fitzroy London.jpg",
+      imgSrc: "/media/Kimpton-fitzroy.jpg",
       name: "Kimpton Fitzroy Hotel",
       address: "1-8 Russell Sq, London WC1B 5BE",
       phone: "+44 20 7123 5000",
@@ -238,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/media/11-cadogan-gardens.jpg",
+      imgSrc: "/media/cadogan-gardens.jpg",
       name: "11 Cadogan Gardens",
       address: "11 Cadogan Gardens, London SW3 2RJ",
       phone: "+44 20 7730 7000",
@@ -266,6 +265,34 @@ document.addEventListener("DOMContentLoaded", function () {
       price: 209,
       bookingLink:
         "https://www.hotels.com/Hotel-Search?MDPDTL=HTL.6694609.20240427.20240430.DDF.35.CID.20668534461.AUDID.&adults=2&children=&destination=Kirkby%20Stephen%2C%20England%2C%20United%20Kingdom&endDate=2024-04-30&gclid=Cj0KCQjw2PSvBhDjARIsAKc2cgN29xOs5TlFFRHkMbVGvVRK0sNxK2yUxHK9NDO4Vx1H-392mfIiRJsaAi8dEALw_wcB&locale=en_US&mctc=10&mdpcid=HCOM-US.META.HPA.HOTEL-CORESEARCH-ROOMBUNDLE-desktop.HOTEL&mpf=746.75&mpg=USD&mpj=124.46&mpl=USD&mpm=24&mpn=218449318&mpo=EC&mpp=1&rateplanid=276180656&regionId=6048691&rffrid=sem.hcom.US.156.003.localuniversal.02.desktop-3.kwrd%3DGGMETA.6694609USen-20240427-N-ABW%3D35-camp%3D20668534461-aud%3D-N&selected=6694609&semdtl=&siteid=300000001&sort=RECOMMENDED&startDate=2024-04-27&theme=&useRewards=false&userIntent=",
+    },
+
+    {
+      imgSrc: "/media/St-Pancras-Renaissance.jpg",
+      name: "St. Pancras Renaissance Hotel",
+      address: "Euston Rd., London NW1 2AR",
+      phone: "+44 20 7841 3540",
+      price: 405,
+      bookingLink:
+        "https://www.marriott.com/en-us/hotels/lonpr-st-pancras-renaissance-hotel-london/overview/",
+    },
+
+    {
+      imgSrc: "/media/tree-house-hotel.jpg",
+      name: "Tree House Hotel",
+      address: "14-15 Langham Pl, London W1B 2QS",
+      phone: "+44 20 7580 0111",
+      price: 380,
+      bookingLink: "https://www.treehousehotels.com/london",
+    },
+
+    {
+      imgSrc: "/media/the- zetter.jpg",
+      name: "The Zetter",
+      address: "49-50 St John's Sq, London EC1V 4JJ",
+      phone: "+44 20 7324 4444",
+      price: 360,
+      bookingLink: "https://thezetter.com/clerkenwell/",
     },
   ];
   const hotelInfoColumn3 = [
