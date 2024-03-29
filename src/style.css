@@ -126,6 +126,11 @@ footer a {
 }
 
 /* ----------------------------------------------------------------NavBAr Section ----------------------------------------------------------*/
+.logo {
+  width: 100px;
+  height: auto;
+}
+
 .nav-title {
   text-align: center;
   padding: var(--min-padding);
@@ -146,6 +151,7 @@ footer a {
   text-align: center;
   border-left: var(--border);
   cursor: pointer;
+  padding: 10px;
 }
 
 .navbar-item:hover {
@@ -189,6 +195,11 @@ footer a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--grid-gap-md);
+  background-color: #b1a69d;
+}
+
+.grid-wrapper:last-child {
+  background-color: #f7f5f0;
 }
 
 .img-container,
@@ -209,11 +220,16 @@ footer a {
   justify-content: center;
 }
 
+.img-container img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
 .text-container {
   display: flex;
   flex-direction: column;
   font-family: var(--main-text);
   font-weight: var(--font-weight-normal);
+  font-family: manrope, sans-serif;
 }
 
 .info-title {
@@ -222,8 +238,11 @@ footer a {
 
 .info-title p {
   opacity: 0.5;
-  font-size: 18px;
-  color: var(--main-color);
+  font-size: 26px;
+  color: white;
+  font-family: "Lobster Two", sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
 }
 
 .info-title h2 {
@@ -247,6 +266,7 @@ footer a {
   border: var(--border);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: var(--min-padding);
+  background-color: white;
 }
 
 .city-guide-text {
@@ -254,6 +274,7 @@ footer a {
   text-align: justify;
   line-height: 1.75;
   font-weight: 400;
+  background-color: #fff;
 }
 
 .currency {
@@ -608,8 +629,12 @@ footer a {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns */
   grid-gap: 15px; /* Gap between grid items */
+  background-color: black;
 }
 
+.background-gallery {
+  background-color: hsla(31.2, 10.72961373%, 45.68627451%, 1);
+}
 .gallery img {
   transition: all 150ms ease-in;
   filter: opacity(0.8);
@@ -621,6 +646,28 @@ footer a {
   transform: scale(1.2);
   filter: opacity(1);
 }
+
+/*-----------------------------book-flightt-section-----------------------------*/
+.book-flight-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-flight-section {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+}
+
+.highlight-text {
+  color: #b58661;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: "Lobster", sans-serif;
+  font-size: 3rem;
+}
+
 /* --------------------------------- Footer ----------------------------------*/
 .footer-grid {
   display: grid;
