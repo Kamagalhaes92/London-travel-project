@@ -487,7 +487,7 @@ footer a {
 }
 
 .event-info-card {
-  background: var(--main-color);
+  background: black;
 
   .one-third {
     border-right: 1px solid #bd7c2f;
@@ -560,6 +560,7 @@ footer a {
 .horizontal-image img {
   width: 100%;
   margin-top: var(--margin-md);
+  border: 2px solid black;
 }
 
 .grid-attractions-wrapper {
@@ -629,126 +630,130 @@ footer a {
 }
 
 @media (max-width: 800px) {
-  body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
+  @media (max-width: 800px) {
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
 
-  /* Adjust header styles */
-  header h1 {
-    font-size: 50px;
-  }
+    /* Adjust header styles */
+    header h1 {
+      font-size: 50px;
+    }
 
-  header h3 {
-    width: 100%;
-  }
+    header h3 {
+      width: 100%;
+    }
 
-  /* Adjust image title height */
-  .img-title {
-    height: 200px;
-  }
+    /* Adjust image title height */
+    .img-title {
+      height: 200px;
+    }
 
-  /* Adjust heading title styles */
-  .heading-title h3 {
-    width: 100%;
-  }
+    /* Adjust heading title styles */
+    .heading-title h3 {
+      width: 100%;
+    }
 
-  .heading-title {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
+    .heading-title {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
 
-  /* Adjust grid layout */
-  .grid-wrapper {
-    grid-template-columns: 1fr;
-  }
+    /* Adjust grid layout */
+    .grid-wrapper {
+      grid-template-columns: 1fr;
+    }
 
-  /* Center history image */
-  .img-container {
-    margin: 0 auto;
-  }
+    /* Center history image */
+    .img-container {
+      margin: 0 auto;
+    }
 
-  /* Resize history image */
-  .img-container img {
-    width: 95%;
-  }
+    /* Resize history image */
+    .img-container img {
+      width: 95%;
+    }
 
-  /* Adjust main titles font size */
-  .main-titles {
-    font-size: 22px;
-  }
+    /* Adjust main titles font size */
+    .main-titles {
+      font-size: 22px;
+    }
 
-  /* Adjust hotels grid container layout */
-  .hotels-grid-container {
-    grid-template-columns: 1fr;
-    margin: 5px auto;
-  }
+    /* Adjust hotels grid container layout */
+    .hotels-grid-container {
+      grid-template-columns: 1fr;
+      margin: 5px auto;
+    }
 
-  /* Adjust footer grid layout */
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
+    /* Adjust footer grid layout */
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
 
-  /* Adjust hotel card buttons wrapper */
-  .hotel-card-buttons-wrapper {
-    margin-left: 5px;
-    grid-gap: 15px;
-  }
+    /* Adjust hotel card buttons wrapper */
+    .hotel-card-buttons-wrapper {
+      margin-left: 5px;
+      grid-gap: 15px;
+    }
 
-  /* Adjust text container padding */
-  .text-container {
-    padding: 5px;
-  }
+    /* Adjust text container padding */
+    .text-container {
+      padding: 5px;
+    }
 
-  /* Reset padding for restaurants */
-  .restaurants {
-    padding: 0;
-  }
+    /* Reset padding for restaurants */
+    .restaurants {
+      padding: 10px;
+    }
 
-  /* Adjust flex container styles */
-  .flex-container {
-    width: 100%;
-    overflow-x: auto; /* or overflow-x: hidden; based on your preference */
-    flex-wrap: nowrap;
-  }
+    /* Adjust flex container styles */
+    .flex-container {
+      width: 100%;
+      overflow-x: auto; /* or overflow-x: hidden; based on your preference */
+      flex-wrap: nowrap;
+    }
 
-  /* Adjust card width */
-  .card {
-    width: 100%;
-  }
+    /* Adjust card width */
+    .card {
+      width: 100%;
+    }
 
-  /* Adjust attractions grid layout */
-  .flex-container-attractions {
-    display: flex;
-    flex-wrap: wrap;
-  }
+    /* Adjust attractions grid layout */
+    .flex-container-attractions {
+      display: flex;
+      flex-wrap: wrap;
+    }
 
-  /* Adjust grid 2 columns layout */
-  .grid-2-columns {
-    grid-template-columns: 1fr;
-    padding: 0;
-    margin: 0 auto;
-  }
+    /* Adjust grid 2 columns layout */
+    .grid-2-columns {
+      grid-template-columns: 1fr;
+      padding: 0;
+      margin: 0 auto;
+    }
 
-  .embed {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-  }
+    .embed {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+    }
 
-  /* Adjust grid attractions wrapper */
-  .grid-attractions-wrapper {
-    grid-gap: 1px;
-    border: 1px solid black;
-  }
+    /* Adjust grid attractions wrapper */
+    .grid-attractions-wrapper {
+      grid-gap: 1px;
+      border: 1px solid black;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
 
-  /* Reset padding for padding wrapper */
-  .padding-wrapper {
-    padding: 0;
-  }
+    /* Reset padding for padding wrapper */
+    .padding-wrapper {
+      padding: 0;
+    }
 
-  .wrapper {
-    grid-template-columns: 1fr;
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
   }
 }
