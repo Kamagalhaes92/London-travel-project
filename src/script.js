@@ -1,3 +1,27 @@
+//Hamburger Menu for smaller screens
+
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburgerIcon = document.querySelector(".hamburger-icon");
+  const menuOverlay = document.querySelector(".menu-overlay");
+  const menuColumn = document.querySelector(".menu-column");
+  const closeBtn = document.querySelector(".close-btn");
+
+  hamburgerIcon.addEventListener("click", function () {
+    menuOverlay.classList.toggle("active");
+    menuColumn.classList.toggle("active");
+  });
+
+  menuOverlay.addEventListener("click", function () {
+    menuOverlay.classList.remove("active");
+    menuColumn.classList.remove("active");
+  });
+
+  closeBtn.addEventListener("click", function () {
+    menuOverlay.classList.remove("active");
+    menuColumn.classList.remove("active");
+  });
+});
+
 //Weather widget
 !(function (d, s, id) {
   var js,
@@ -336,7 +360,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/media/baileys-hotel.jpg",
+      imgSrc: "/media/bailey.jpg",
       name: "The Baileys",
       address: "140 Gloucester Rd, South Kensington, London SW7 4QH",
       phone: "+44 20 7373 6000",
