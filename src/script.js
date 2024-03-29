@@ -337,7 +337,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     {
       imgSrc: "/media/baileys-hotel.jpg",
-      name: "The Bailey’s",
+      name: "The Baileys",
       address: "140 Gloucester Rd, South Kensington, London SW7 4QH",
       phone: "+44 20 7373 6000",
       price: 207,
@@ -392,11 +392,11 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     {
-      imgSrc: "/media/cove.jpg",
-      name: "Cove Cannon",
+      imgSrc: "/media/cove-hotel.jpg",
+      name: "Cove Apartment",
       address: "46 Cannon St, London EC4N 6JJ",
       phone: "+44 20 3327 4710",
-      price: 162,
+      price: 300,
       bookingLink:
         "https://www.staycove.com/en/london/cannon-street-apartments",
     },
