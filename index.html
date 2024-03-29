@@ -60,7 +60,7 @@
     <main>
       <section>
         <div class="grid-wrapper">
-          <div class="history-img">
+          <div class="img-container">
             <img
               src="https://images.pexels.com/photos/18111177/pexels-photo-18111177/free-photo-of-ponto-de-referencia-ponto-historico-monumento-religiao.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
@@ -578,6 +578,10 @@
             </div>
           </div>
         </div>
+        <p class="subtitles">
+          Scroll <i class="fa-solid fa-arrow-right-long"></i> to see more
+          restaurants
+        </p>
       </section>
       <section>
         <h2 class="main-titles">
@@ -586,61 +590,48 @@
         <div class="grid-2-columns">
           <div class="attractions-container">
             <div class="attractions-header">Most Popular Free Attractions</div>
-            <div class="flex-container-attractions">
-              <div class="column-1-attractions">
-                <div class="grid-item">
-                  <img
-                    src="https://images.pexels.com/photos/3276830/pexels-photo-3276830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="Image 1"
-                  />
-                  <div class="text-overlay">British Museum</div>
-                </div>
-              </div>
-              <div class="column-2-attractions">
-                <h2>The Butterfly Trail at Outernet</h2>
-                <div class="grid-2-columns">
-                  <div class="grid-item">
-                    <img
-                      src="https://i.pinimg.com/736x/26/35/b0/2635b0b0c171d11f09077cd0a649636b.jpg"
-                      alt=""
-                    />
-                    <div class="text-overlay">The Butterfly Trail</div>
-                  </div>
+            <div class="wrapper">
+              <div class="attractions-card">
+                <div class="card-embed-image">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.869179562924!2d-0.13250112417747378!3d51.5156160101042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ba9f01c88a5%3A0x2affd7865896a096!2sOuternet%20London!5e0!3m2!1sen!2sus!4v1711521506834!5m2!1sen!2sus"
-                    class="embed"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8663559909082!2d-0.13251052417746503!3d51.51566781010039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b5418558dbb%3A0x3743ed86afa42984!2sThe%20Butterfly%20Trail!5e0!3m2!1sen!2sus!4v1711663818659!5m2!1sen!2sus"
                     style="border: 0"
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
+                    class="embed"
                   ></iframe>
                 </div>
-                <div class="tags-info">
-                  <button class="btn-sm btn-attraction">Summer 2024</button>
-                  <button class="btn-sm btn-attraction">Free</button>
-                </div>
-
-                <p>
+                <div class="event-type">Art</div>
+                <div class="event-card-title">The Butterfly Trail</div>
+                <div class="event-card-description">
                   Get ready to embark on an immersive journey like never before,
                   as Outernet’s most innovative piece yet is still fluttering
-                  around in Central London. And the good news just keeps on
-                  coming, The Butterfly Trail will be “in rotation until Summer
-                  2024”.
-                </p>
-              </div>
-              <div class="column-2-attractions">
-                <div class="grid-2-columns">
-                  <div class="grid-item">
-                    <img
-                      src="https://francaisalondres.com/content/images/size/w1000/2024/02/Cloud-songs-on-the-horizon.jpg"
-                      alt=""
-                    />
-                    <div class="text-overlay">
-                      Cloud songs on the horizon at the Barbican's Conservatory
-                    </div>
+                  around in Central London.
+                </div>
+
+                <div class="event-info-card-text event-info-card clearfix">
+                  <div class="one-third">
+                    <div class="info-value">SOHO</div>
+                    <div class="info-small-title">Where</div>
                   </div>
+
+                  <div class="one-third">
+                    <div class="info-value">Summer 24</div>
+                    <div class="info-small-title">When</div>
+                  </div>
+
+                  <div class="one-third no-border">
+                    <div class="info-value">Free</div>
+                    <div class="info-small-title">Cost</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="attractions-card">
+                <div class="card-embed-image">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.869179562924!2d-0.13250112417747378!3d51.5156160101042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ba9f01c88a5%3A0x2affd7865896a096!2sOuternet%20London!5e0!3m2!1sen!2sus!4v1711521506834!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9933.22542758507!2d-0.09935639999998325!3d51.507595300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604a931761995%3A0x1ffc6f23e06b9be7!2sTate%20Modern!5e0!3m2!1sen!2sus!4v1711667155516!5m2!1sen!2sus"
                     class="embed"
                     style="border: 0"
                     allowfullscreen=""
@@ -648,24 +639,104 @@
                     referrerpolicy="no-referrer-when-downgrade"
                   ></iframe>
                 </div>
-                <div class="tags-info">
-                  <button class="btn-sm btn-attraction">Summer 2024</button>
-                  <button class="btn-sm btn-attraction">Free</button>
+                <div class="event-type">Ar | Viewpoint</div>
+                <div class="event-card-title">View- Tate Modern</div>
+                <div class="event-card-description">
+                  One of the most prestigious museums in the world. However,
+                  what many people don’t know is that on the 10th floor, there
+                  is a fantastic viewpoint with panoramic views.
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                  maxime voluptatum ratione repudiandae dolores. Commodi fugiat
-                  exercitationem corporis quisquam ullam omnis! Recusandae sequi
-                  ab est asperiores cumque animi molestiae harum!
-                </p>
+
+                <div class="event-info-card-text event-info-card clearfix">
+                  <div class="one-third">
+                    <div class="info-value">South Bank</div>
+                    <div class="info-small-title">Where</div>
+                  </div>
+
+                  <div class="one-third">
+                    <div class="info-value">Always</div>
+                    <div class="info-small-title">When</div>
+                  </div>
+
+                  <div class="one-third no-border">
+                    <div class="info-value">Free</div>
+                    <div class="info-small-title">Cost</div>
+                  </div>
+                </div>
               </div>
-              <div class="column-1-attractions">
-                <div class="grid-item">
-                  <img
-                    src="https://images.pexels.com/photos/9596426/pexels-photo-9596426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="Image 1"
-                  />
-                  <div class="text-overlay">British Museum</div>
+              <div class="attractions-card">
+                <div class="card-embed-image">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11888.58501270007!2d-0.10147525460108141!3d51.50811219410876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603526c3ca281%3A0xd5156ccc2c6a9284!2sSky%20Garden!5e0!3m2!1sen!2sus!4v1711667756566!5m2!1sen!2sus"
+                    class="embed"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <div class="event-type">Building | Viewpoint</div>
+                <div class="event-card-title">Sky Garden</div>
+                <div class="event-card-description">
+                  The city’s highest garden is a beautiful place to take a deep
+                  breath. Admission is free, but you must register online on the
+                  official Sky Garden website and reserve a time slot for your
+                  visit.
+                </div>
+
+                <div class="event-info-card-text event-info-card clearfix">
+                  <div class="one-third">
+                    <div class="info-value">Central London</div>
+                    <div class="info-small-title">Where</div>
+                  </div>
+
+                  <div class="one-third">
+                    <div class="info-value">Always</div>
+                    <div class="info-small-title">When</div>
+                  </div>
+
+                  <div class="one-third no-border">
+                    <div class="info-value">Free</div>
+                    <div class="info-small-title">Cost</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="attractions-card">
+                <div class="card-embed-image">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6300429650846!2d-0.09573702337917772!3d51.52000297181628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761caa036cfde1%3A0x8deeedcd900573b6!2sBarbican%20Conservatory!5e0!3m2!1sen!2sus!4v1711669100561!5m2!1sen!2sus"
+                    class="embed"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+                <div class="event-type">Garden</div>
+                <div class="event-card-title">Barbican Conservatory</div>
+                <div class="event-card-description">
+                  The Barbican Conservatory is London’s second-largest botanical
+                  garden, with more than 2,000 species of tropical plants and
+                  trees.Unfortunately, the Barbican Conservatory only opens on
+                  selected Saturdays and Sundays.
+                </div>
+
+                <div class="event-info-card-text event-info-card clearfix">
+                  <div class="one-third">
+                    <div class="info-value">SOHO</div>
+                    <div class="info-small-title">Where</div>
+                  </div>
+
+                  <div class="one-third">
+                    <div class="info-value">Always</div>
+                    <div class="info-small-title">When</div>
+                  </div>
+
+                  <div class="one-third no-border">
+                    <div class="info-value">Free</div>
+                    <div class="info-small-title">Cost</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -847,6 +918,69 @@
               <div class="horizontal-image">
                 <img src="/media/pexels-ben-kirby-10719576.jpg" alt="" />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr />
+        <div class="grid-wrapper">
+          <div class="img-container">
+            <div class="gallery grid-container">
+              <figure class="gallery-img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/1053460/pexels-photo-1053460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/1717070/pexels-photo-1717070.jpeg"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/3336154/pexels-photo-3336154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/2421179/pexels-photo-2421179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/3577403/pexels-photo-3577403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/4577651/pexels-photo-4577651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/12602770/pexels-photo-12602770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/1427581/pexels-photo-1427581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+              </figure>
+              <figure class="gallery-img-wrapper">
+                <img
+                  src="https://images.pexels.com/photos/3963060/pexels-photo-3963060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt=""
+                />
+              </figure>
             </div>
           </div>
         </div>
