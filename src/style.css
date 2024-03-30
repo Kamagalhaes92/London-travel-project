@@ -907,6 +907,10 @@ footer a {
   grid-gap: 20px;
   padding: var(--max-padding);
 }
+footer a {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 @media (max-width: 800px) {
   body {
