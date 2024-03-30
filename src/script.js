@@ -436,3 +436,17 @@ document.addEventListener("DOMContentLoaded", function () {
   column2Buttons[0].classList.add("active");
   column3Buttons[0].classList.add("active");
 });
+
+//Flight Section
+document.addEventListener("DOMContentLoaded", function () {
+  const flightBtn = document.querySelector(".btn-flight");
+  const bookingContainer = document.querySelector(".booking__container");
+  const bookingResult = document.querySelector(".booking-result");
+
+  flightBtn.addEventListener("click", function () {
+    bookingContainer.style.display = "none"; // Hide booking container
+    bookingResult.textContent =
+      "I'm sorry, we were unable to fulfill your request at this time.";
+    bookingResult.style.display = "block"; // Show booking result message
+  });
+});

@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Angkor&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Angkor&family=Dawning+of+a+New+Day&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
@@ -26,12 +26,14 @@
         <img src="/media/london-logo.png" alt="" class="logo" />
       </div>
       <div class="navbar">
-        <div class="navbar-item">History</div>
-        <div class="navbar-item">Hotels</div>
-        <div class="navbar-item">Places to Visit</div>
-        <div class="navbar-item">Tours</div>
-        <div class="navbar-item">Restaurants</div>
-        <div class="navbar-item">Shows</div>
+        <div class="navbar-item"><a href="#weather-nav">Weather</a></div>
+        <div class="navbar-item"><a href="#hotels-nav">Hotels</a></div>
+        <div class="navbar-item">
+          <a href="#restaurants-nav">Restaurants</a>
+        </div>
+        <div class="navbar-item"><a href="#place-nav">Places to Visit</a></div>
+        <div class="navbar-item"><a href="#gallery-nav">Gallery</a></div>
+        <div class="navbar-item"><a href="#flight-nav">Book a Flight</a></div>
       </div>
       <div class="hamburger-menu">
         <div class="hamburger-icon">&#9776;</div>
@@ -42,12 +44,16 @@
           <span class="close-btn">&times;</span>
         </div>
         <div class="menu-items">
-          <div class="navbar-item">History</div>
-          <div class="navbar-item">Hotels</div>
-          <div class="navbar-item">Places to Visit</div>
-          <div class="navbar-item">Tours</div>
-          <div class="navbar-item">Restaurants</div>
-          <div class="navbar-item">Shows</div>
+          <div class="navbar-item"><a href="#weather-nav">Weather</a></div>
+          <div class="navbar-item"><a href="#hotels-nav">Hotels</a></div>
+          <div class="navbar-item">
+            <a href="#restaurants-nav">Restaurants</a>
+          </div>
+          <div class="navbar-item">
+            <a href="#place-nav">Places to Visit</a>
+          </div>
+          <div class="navbar-item"><a href="#gallery-nav">Gallery</a></div>
+          <div class="navbar-item"><a href="#flight-nav">Book a Flight</a></div>
         </div>
       </div>
     </nav>
@@ -92,7 +98,7 @@
               </h2>
             </div>
 
-            <div class="data-info">
+            <div class="data-info" id="weather-nav">
               <div class="info-current-time" id="info-current-time">
                 <h2>Current Time</h2>
                 <div class="local-time"></div>
@@ -164,7 +170,7 @@
         <hr />
       </section>
       <section>
-        <div class="main-titles">
+        <div class="main-titles" id="hotels-nav">
           Find the best Hotels <i class="fa-solid fa-hotel"></i>
         </div>
         <div class="hotels-grid-container">
@@ -371,7 +377,7 @@
           </div>
         </div>
       </section>
-      <section class="restaurants">
+      <section class="restaurants" id="restaurants-nav">
         <h2 class="main-titles">
           Restaurants <i class="fa-solid fa-utensils"></i>
         </h2>
@@ -588,12 +594,12 @@
         </p>
       </section>
       <section>
-        <h2 class="main-titles">
-          Hot Now <i class="fa-solid fa-landmark"></i>
+        <h2 class="main-titles" id="place-nav">
+          Attractions <i class="fa-solid fa-landmark"></i>
         </h2>
         <div class="grid-2-columns">
           <div class="attractions-container">
-            <div class="attractions-header">Most Popular Attractions</div>
+            <div class="attractions-header">Hot Now</div>
             <div class="wrapper">
               <div class="attractions-card">
                 <div class="card-embed-image">
@@ -607,7 +613,13 @@
                   ></iframe>
                 </div>
                 <div class="event-type">Art</div>
-                <div class="event-card-title">The Butterfly Trail</div>
+                <div class="event-card-title">
+                  <a
+                    href="https://www.outernet.com/news/embark-on-the-butterfly-trail-outernet-s-magical-mixed-reality-experience"
+                    target="_blank"
+                    >The Butterfly Trail</a
+                  >
+                </div>
                 <div class="event-card-description">
                   Get ready to embark on an immersive journey like never before,
                   as Outernet’s most innovative piece yet is still fluttering
@@ -644,7 +656,13 @@
                   ></iframe>
                 </div>
                 <div class="event-type">Ar | Viewpoint</div>
-                <div class="event-card-title">View- Tate Modern</div>
+                <div class="event-card-title">
+                  <a
+                    href="https://www.tate.org.uk/visit/tate-modern/level-10"
+                    target="_blank"
+                    >View- Tate Modern</a
+                  >
+                </div>
                 <div class="event-card-description">
                   One of the most prestigious museums in the world. However,
                   what many people don’t know is that on the 10th floor, there
@@ -680,7 +698,11 @@
                   ></iframe>
                 </div>
                 <div class="event-type">Building | Viewpoint</div>
-                <div class="event-card-title">Sky Garden</div>
+                <div class="event-card-title">
+                  <a href="https://skygarden.london/" target="_blank"
+                    >Sky Garden</a
+                  >
+                </div>
                 <div class="event-card-description">
                   The city’s highest garden is a beautiful place to take a deep
                   breath. Admission is free, but you must register online on the
@@ -718,7 +740,13 @@
                   ></iframe>
                 </div>
                 <div class="event-type">Garden</div>
-                <div class="event-card-title">Barbican Conservatory</div>
+                <div class="event-card-title">
+                  <a
+                    href="https://www.barbican.org.uk/whats-on/2024/event/the-conservatory-x-ranjani-shettar"
+                    target="_blank"
+                    >Barbican Conservatory</a
+                  >
+                </div>
                 <div class="event-card-description">
                   The Barbican Conservatory is London’s second-largest botanical
                   garden, with more than 2,000 species of tropical plants and
@@ -747,7 +775,7 @@
           </div>
 
           <div class="attractions-container">
-            <div class="attractions-header">Most Popular Paid Attractions</div>
+            <div class="attractions-header">Most Popular Attractions</div>
             <div class="padding-wrapper">
               <div class="grid-attractions-wrapper">
                 <div class="attraction-card">
@@ -932,7 +960,7 @@
         <div class="grid-wrapper">
           <div class="img-container background-gallery">
             <div class="padding-wrapper">
-              <div class="gallery grid-container">
+              <div class="gallery grid-container" id="gallery-nav">
                 <figure class="gallery-img-wrapper">
                   <img
                     src="https://images.pexels.com/photos/1053460/pexels-photo-1053460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -990,12 +1018,156 @@
               </div>
             </div>
           </div>
+          <div class="last-section">
+            <div class="book-flight-section">
+              <div class="book-flight-text" id="flight-nav">
+                Feeling Inspired by London?
+                <span class="highlight-text">It's Time </span> to Book Your
+                Flight!
+              </div>
+              <div class="section__container booking__container">
+                <form>
+                  <div class="form__group">
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <div class="input__content">
+                      <div class="input__group">
+                        <input type="text" />
+                        <label>Location</label>
+                      </div>
+                      <p>Where are you going?</p>
+                    </div>
+                  </div>
+                  <div class="form__group">
+                    <span><i class="fa-regular fa-user"></i></span>
+                    <div class="input__content">
+                      <div class="input__group">
+                        <input type="number" min="1" max="10" />
+                        <label>Travellers</label>
+                      </div>
+                      <p>Add guests</p>
+                    </div>
+                  </div>
+                  <div class="form__group">
+                    <span><i class="fa-regular fa-calendar-days"></i></span>
+                    <div class="input__content">
+                      <div class="input__group">
+                        <input type="text" />
+                        <label>Departure</label>
+                      </div>
+                      <p>Add date</p>
+                    </div>
+                  </div>
+                  <div class="form__group">
+                    <span><i class="fa-regular fa-calendar-days"></i></span>
+                    <div class="input__content">
+                      <div class="input__group">
+                        <input type="text" />
+                        <label>Return</label>
+                      </div>
+                      <p>Add date</p>
+                    </div>
+                  </div>
+                  <button type="button" class="btn-flight">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="booking-result"></div>
+            </div>
+            <div class="grid-wrapper-article">
+              <!-- First column  -->
+              <div class="grid-column latest-column">
+                <h3>Latest</h3>
+                <div class="grid-article">
+                  <img src="/article-1.jpg" alt="Image 1" />
+                  <a
+                    href="https://www.timeout.com/london/news/six-london-exhibitions-we-cant-wait-to-see-in-april-2024-032824"
+                    >Six London exhibitions we can’t wait to see in April
+                    2024</a
+                  >
+                </div>
+                <div class="grid-article">
+                  <img src="/media/article-2.jpg" alt="Image 1" />
+                  <a
+                    href="https://timeout.com/london/news/londons-self-declared-oldest-irish-pub-has-reopened-two-weeks-late-for-st-patricks-day-032924"
+                    >London’s (self-declared) oldest Irish pub has reopened</a
+                  >
+                </div>
+                <div class="grid-article">
+                  <img src="/media/article-3.jpg" alt="Image 1" />
+                  <a
+                    href="https://loving-travel.com/en/free-things-to-do-in-london/"
+                    target="_blank"
+                    >Top 32 FREE Things to Do in London in 2024</a
+                  >
+                </div>
+              </div>
 
-          <div class="book-flight-section">
-            <div class="book-flight-text">
-              Feeling Inspired by London?
-              <span class="highlight-text">It's Time </span> to Book Your Flight
-              With Us!
+              <!-- Second column  -->
+              <div class="grid-column latest-column">
+                <div class="grid-article">
+                  <img src="/media/article-4.jpg" alt="Image 4" />
+                  <a
+                    href="https://www.timeout.com/london/news/south-londons-much-loved-horniman-museum-will-soon-start-opening-late-032624"
+                    target="_blank"
+                    >South London’s much-loved Horniman Museum will soon start
+                    opening late</a
+                  >
+                </div>
+                <div class="grid-article">
+                  <img src="/media/article-5.jpg" alt="Image 1" />
+                  <a
+                    href="https://www.timeout.com/london/news/the-best-new-london-theatre-openings-in-april-032824"
+                    target="_blank"
+                    >The best new London theatre openings in April</a
+                  >
+                </div>
+                <div class="grid-article">
+                  <img src="/media/article-6.jpg" alt="Image 1" />
+                  <a
+                    href="https://www.timeout.com/london/news/thirteen-london-rooftop-bars-have-been-named-the-best-in-the-world-032524"
+                    target="_blank"
+                    >Thirteen London rooftop bars have been named the best in
+                    the world</a
+                  >
+                </div>
+              </div>
+
+              <!-- Third column  -->
+              <div class="grid-column">
+                <h5>Travel Guide</h5>
+                <div class="grid-article-travel">
+                  <a
+                    href="https://fullsuitcase.com/tips-visit-london-first-time/"
+                    target="_blank"
+                    >Traveling to London for the first time(2024) : Tips &
+                    Tricks</a
+                  >
+
+                  <p>
+                    Traveling to London for the first time and not sure where to
+                    start? Planning a trip to London might be overwhelming
+                    indeed and especially so if this is your first time in the
+                    city!
+                  </p>
+                </div>
+                <h5>Eat Out</h5>
+                <div class="grid-article-travel">
+                  <a
+                    href="https://www.standard.co.uk/going-out/restaurants/best-vegetarian-restaurants-in-london-b994202.html"
+                    target="_blank"
+                    >London’s best vegetarian restaurants (that will appeal to
+                    meat eaters too)</a
+                  >
+
+                  <p>
+                    Long gone are the days when a herbivore could go hungry in
+                    London. Vegetarians and vegans alike are well served now,
+                    with a growing number of restaurants boasting not just the
+                    odd token dish, but plant-based menus
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
