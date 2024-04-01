@@ -143,7 +143,6 @@ footer a {
   margin-top: var(--margin-xs);
 }
 
-/* Basic styles for the navigation bar */
 .navbar {
   display: flex;
   border: var(--border);
@@ -151,7 +150,6 @@ footer a {
   overflow: hidden;
 }
 
-/* Styles for each navigation item */
 .navbar-item {
   flex: 1;
   text-align: center;
@@ -266,6 +264,7 @@ footer a {
   border-right: 1px solid black;
   -webkit-box-shadow: inset 0px 5px 10px 1px #000000;
   box-shadow: inset 0px 5px 10px 1px #000000;
+
   background-color: var(--background-color-light);
   display: flex;
   align-items: center;
@@ -274,6 +273,7 @@ footer a {
 
 .img-container img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  width: 84%;
 }
 
 .img-container img:hover {
@@ -331,6 +331,7 @@ footer a {
   line-height: 1.75;
   font-weight: 400;
   background-color: #fff;
+  font-size: 18px;
 }
 
 .currency {
@@ -687,8 +688,8 @@ footer a {
 /* ----------------------------Gallery ----------------------------*/
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
-  grid-gap: 15px; /* Gap between grid items */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
   background-color: black;
 }
 
