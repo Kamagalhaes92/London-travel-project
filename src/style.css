@@ -9,7 +9,7 @@
   --background-color-dark: #000000;
   --text-color: #333;
   --footer-text-color: white;
-  --footer-bg-image: url("https://images.pexels.com/photos/813362/pexels-photo-813362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  --footer-bg-image: url(/media/footer-img.jpeg);
 
   /* Borders and box model */
   --border: 1px solid #333;
@@ -30,6 +30,10 @@
   --font-size-subheading: 13px;
   --font-weight-bold: 700;
   --font-weight-normal: 300;
+
+  /* Filter */
+
+  --img-filter: sepia(15%) grayscale(60%);
 }
 
 * {
@@ -262,7 +266,6 @@ footer a {
   border-right: 1px solid black;
   -webkit-box-shadow: inset 0px 5px 10px 1px #000000;
   box-shadow: inset 0px 5px 10px 1px #000000;
-
   background-color: var(--background-color-light);
   display: flex;
   align-items: center;
@@ -271,6 +274,10 @@ footer a {
 
 .img-container img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+.img-container img:hover {
+  filter: var(--img-filter);
 }
 
 .text-container {
@@ -400,8 +407,8 @@ footer a {
   color: black;
   opacity: 1;
   cursor: pointer;
-  white-space: nowrap; /* Prevents text from wrapping */
-  overflow: hidden; /* Hides any overflow */
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -846,14 +853,14 @@ footer a {
   margin-top: 10px;
   color: var(--main-color);
   font-family: Lato, sans-serif;
-  font-size: 1.3rem; /* Font size of the error message */
+  font-size: 1.3rem;
 }
 
 /*---------------------------Latest News --------------------------------*/
 .grid-wrapper-article {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px; /* Adjust the gap between grid items as needed */
+  gap: 10px;
 }
 
 .grid-wrapper-article a {
@@ -888,7 +895,7 @@ footer a {
 }
 
 .latest {
-  grid-column: span 2; /* Span two columns for the "Latest" cell */
+  grid-column: span 2;
 }
 
 .grid-article img {
@@ -898,7 +905,7 @@ footer a {
 
 .grid-article h4 {
   margin-top: 5px;
-  font-size: 1rem; /* Adjust font size for h4 as needed */
+  font-size: 1rem;
 }
 /* --------------------------------- Footer ----------------------------------*/
 .footer-grid {
@@ -919,7 +926,6 @@ footer a {
     overflow-x: hidden;
   }
 
-  /* Adjust header styles */
   header h1 {
     font-size: 50px;
   }
@@ -928,12 +934,10 @@ footer a {
     width: 100%;
   }
 
-  /* Adjust image title height */
   .img-title {
     height: 200px;
   }
 
-  /* Adjust heading title styles */
   .heading-title h3 {
     width: 100%;
   }
@@ -944,71 +948,58 @@ footer a {
     width: 100%;
   }
 
-  /* Adjust grid layout */
   .grid-wrapper {
     grid-template-columns: 1fr;
   }
 
-  /* Center history image */
   .img-container {
     margin: 0 auto;
   }
 
-  /* Resize history image */
   .img-container img {
     width: 95%;
   }
 
-  /* Adjust main titles font size */
   .main-titles {
     font-size: 22px;
   }
 
-  /* Adjust hotels grid container layout */
   .hotels-grid-container {
     grid-template-columns: 1fr;
     margin: 5px auto;
   }
 
-  /* Adjust footer grid layout */
   .footer-grid {
     grid-template-columns: 1fr;
   }
 
-  /* Adjust hotel card buttons wrapper */
   .hotel-card-buttons-wrapper {
     margin-left: 5px;
     grid-gap: 15px;
   }
 
-  /* Adjust text container padding */
   .text-container {
     padding: 5px;
   }
 
-  /* Reset padding for restaurants */
   .restaurants {
     padding: 10px;
   }
 
-  /* Adjust flex container styles */
   .flex-container {
     width: 100%;
-    overflow-x: auto; /* or overflow-x: hidden; based on your preference */
+    overflow-x: auto;
   }
 
-  /* Adjust card width */
   .card {
     width: 100%;
   }
 
-  /* Adjust attractions grid layout */
   .flex-container-attractions {
     display: flex;
     flex-wrap: wrap;
   }
 
-  /* Adjust grid 2 columns layout */
   .grid-2-columns {
     grid-template-columns: 1fr;
     padding: 0;
@@ -1020,7 +1011,6 @@ footer a {
     aspect-ratio: 16 / 9;
   }
 
-  /* Adjust grid attractions wrapper */
   .grid-attractions-wrapper {
     grid-gap: 1px;
     border: 1px solid black;
@@ -1028,7 +1018,6 @@ footer a {
     grid-template-columns: 1fr 1fr;
   }
 
-  /* Reset padding for padding wrapper */
   .padding-wrapper {
     padding: 0;
   }
